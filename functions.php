@@ -38,13 +38,13 @@ function sendMail($to,$title,$content){
     $mail->FromName = 'Admin';
 
     //smtp登录的账号 这里填入字符串格式的qq号即可
-    $mail->Username ='admin@iceagedata.com';
+    $mail->Username ='admin@XXX.com';
 
     //smtp登录的密码 使用生成的授权码（就刚才叫你保存的最新的授权码）
-    $mail->Password = 'wwiztcsbtfembjgh';
+    $mail->Password = 'XXXXXXXXXXXXXXXXX';
 
     //设置发件人邮箱地址 这里填入上述提到的“发件人邮箱”
-    $mail->From = 'admin@iceagedata.com';
+    $mail->From = 'admin@XXXXX.com';
 
     //邮件正文是否为html编码 注意此处是一个方法 不再是属性 true或false
     $mail->isHTML(true);
