@@ -1,0 +1,25 @@
+#skin_switcher{display:block;width:200px;padding-left:20px;height:auto;z-index:99;position:absolute;top:300px;left:-240px;}
+#skin_switcher span{position:relative;}
+a.skin_switcher_toggle {
+display:block;
+width:30px;
+height:30px;
+background:url(../images/skin_switcher_open.png) no-repeat;
+background-position:6px 6px;
+position:absolute;
+left:220px;
+z-index:99;
+
+}
+#skin_switcher div {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding: 20px 10px;
+background-color: white;
+height: auto;
+-moz-box-shadow: 0 0 8px #111;
+-webkit-box-shadow: 0 0 8px #111;
+box-shadow: 0 0 8px #111
+}
+#skin_switcher select {border:1px solid #999;width:200px;}

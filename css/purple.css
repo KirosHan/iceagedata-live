@@ -1,0 +1,270 @@
+/* General Styles */
+a.subheading {
+color:#9890B0;
+}
+
+
+/* Blockquotes */
+blockquote, blockquote p { color: #9890B0;}
+blockquote p{
+background:url(../images/blockquote-start.png) left top no-repeat;
+}
+
+blockquote{
+background:url(../images/blockquote-end.png) right bottom no-repeat;
+}
+
+/* Links */
+a {
+transition: color 0.4s;
+-moz-transition: color 0.4s;
+-webkit-transition: color 0.4s;
+-o-transition: color 0.4s;
+}
+a, a:visited { color: #9890B0; }
+a:hover, a:focus { color: #000; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a:visited, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+font-weight: inherit;
+color: #1d1d1d;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+color: #9890B0;
+}
+
+
+
+
+
+/* Lists */
+
+
+/* Forms */
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+-moz-box-shadow: 0 0 3px rgba(152, 144, 176, 1);
+-webkit-box-shadow: 0 0 3px rgba(152, 144, 176, 1);
+box-shadow:  0 0 3px rgba(152, 144, 176, 1);
+}
+
+
+
+/* Buttons */
+.button,
+a.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+background: #9890B0;
+}
+
+	
+/* Header */
+.header_bg {
+background: url(../images/header.png) no-repeat;
+}
+
+
+/* Top Menu */
+#top_nav li.selected a{
+background: url(../images/menu-arrows.png) no-repeat right 5px;
+color: #fff;
+}
+
+#top_nav li a:hover {
+color: #9890B0;
+}
+
+#top_nav li.selected li a:hover {
+color: #fff;
+background: url(../images/menu-arrows.png) no-repeat right -42px;
+}
+
+
+
+/* Top Social */
+
+#top_social_icons li {
+background: url(../images/social/twitter.png) no-repeat;
+}
+
+
+/* Sub Header */
+#sub_header  {
+background: #030303 url(../images/slider-bg.jpg) no-repeat center center;
+}
+
+.headline h2 a {
+color: #9890B0;
+}
+h1.heading{color:#9890B0;}
+
+
+
+/* Newsletter */
+
+
+/* Content */
+
+
+
+
+/* Sub Content */
+.twitter_update a{color:#9890B0;}
+.twitter_update a:hover, .twitter_update .subheading a:hover{ color: #eee; }
+.twitter_update .subheading a { color: #999; }
+.recent_post_pics a:hover { color: #9890B0; }
+
+
+.thumb_post_link_inner {
+background: url(../images/purple/arrows.png) no-repeat -27px -22px;
+}
+
+.thumb_post_link_inner:hover{
+background: url(../images/purple/arrows-hover.png) no-repeat;
+}
+
+.recent_post_pics .thumb_post_link_inner:hover {background:url(../images/purple/arrows-hover.png) no-repeat;bottom:-2px;right:-2px;}
+.es-carousel .thumb_post_link_inner:hover{background:url(../images/purple/arrows-hover.png) no-repeat;bottom:-2px;right:-2px;}
+
+
+/* Footer */
+
+.foot_col li a:hover {
+background: url(../images/purple/footer-arrow.png) no-repeat 0 center;
+}
+
+
+
+
+/* Sub Footer */
+
+
+#sub_footer a:hover {
+color:#9890B0;
+}
+
+
+/* Inner Content */
+
+
+
+/* Portfolio */
+ul.filterOptions li.active a{ color: #000;}
+ul.filterOptions li a{ color: #d7d7d7;}
+ul.filterOptions li a:hover{ color: #9890B0;}
+
+/* Blog */
+.post_meta a{color:#888;}
+.meta_date {
+background:url(../images/meta-date.png) no-repeat;
+}
+
+.meta_author {
+background:url(../images/meta-author.png) no-repeat;
+}
+
+.meta_tags {
+background:url(../images/meta-tags.png) no-repeat;
+}
+
+a.comments{
+background:url(../images/comments.png) no-repeat 0 center;
+}
+
+
+.featured_posts .featured_image_header {
+background: #9890B0; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(left, #9890B0 0%, #9890B0 50%, #e1e1e1 50%, #e1e1e1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9890B0), color-stop(50%,#9890B0), color-stop(50%,#e1e1e1), color-stop(100%,#e1e1e1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #9890B0 0%,#9890B0 50%,#e1e1e1 50%,#e1e1e1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #9890B0 0%,#9890B0 50%,#e1e1e1 50%,#e1e1e1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #9890B0 0%,#9890B0 50%,#e1e1e1 50%,#e1e1e1 100%); /* IE10+ */
+background: linear-gradient(left, #9890B0 0%,#9890B0 50%,#e1e1e1 50%,#e1e1e1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9890B0', endColorstr='#e1e1e1',GradientType=1 ); /* IE6-8 */
+}
+
+#comment_form input:focus{
+-webkit-box-shadow: 0px 0px 3px 0px #9890B0;
+box-shadow: 0px 0px 3px 0px #9890B0;
+}
+
+/* Page Pagination */
+#page_pagination li a:hover{
+background:#9890B0;
+}
+
+
+/* Accordion */
+
+.accordion li a.head{
+background:url(../images/purple/accordion.png) top left no-repeat;
+}
+
+.accordion li.active a.head{ background:url(../images/purple/accordion.png) bottom left no-repeat;}
+
+
+/* Testimonial  */
+
+blockquote.testimonial {
+background: url(../images/testimonial-end.png) no-repeat right 0;
+}
+
+blockquote.testimonial p {
+background: url(../images/purple/testimonial.png) no-repeat;
+}
+
+
+/* Share */
+
+.share li {
+background: url(../images/social/twitter-2.png) no-repeat;
+}
+.share li.share_facebook { background-image: url(../images/social/facebook-2.png); }
+.share li.share_dribbble{ background-image: url(../images/social/dribble.png); }
+
+/* FlexSlider */
+
+.flex-caption h4 a{
+color: #888;
+background: #000;
+}
+
+.flex-caption h4 a:hover {
+text-decoration: none;
+color: #fff;
+background: #9890B0;
+}
+.flex-control-nav li a {background: url(../images/purple/home-slider.png) no-repeat -18px 0;}
+
+.flex-direction-nav li a {
+background: url(../images/purple/slider-arrows.png) no-repeat -92px 0;
+}
+
+
+/* Roundabout Slider */
+.tracker-individual-container li {
+  background:url(../images/purple/home-slider.png) no-repeat -17px 0;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  background:url(../images/purple/home-slider.png) no-repeat;
+}
+.flex-control-nav li a {background: url(../images/purple/home-slider.png) no-repeat -18px 0;}
+
+
+/* Slides */
+.pagination li a {background:url(../images/purple/slider.png) no-repeat -9px 0px;}
+.pagination .current a {background:url(../images/purple/slider.png) no-repeat;}
+
+
+/* Carousel */
+.es-nav span{
+	background:url(../images/purple/arrows.png) no-repeat 0 0;	
+}
+
+
+
